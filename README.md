@@ -5,9 +5,10 @@ Then it extracts "SN" value from QR data.
 The recognized QR Code is saved as new file within location of the input file.  
 Serial Number is saved to text file in root directory "SerialNumber.txt".
 ## Installation
-Navigate to the project's folder and execute:
+Navigate to desired folder and then execute:
 ```
 git clone https://github.com/latosmichal/Py4QR.git
+cd Py4QR
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
