@@ -14,7 +14,13 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 ## Running
-You can use as many image files as you want.
+To run the script feed images paths as arguments.  
+You can use as many image files as you want.  
+In cmd, execute command:
+```
+python FindSerialNumbers.py image1 image2 image3 ...
+```
+To run test data, execute:
 ```
 python FindSerialNumbers.py testImages\1.jpg testImages\TEST4.jpg
 ```
