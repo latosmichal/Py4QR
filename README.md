@@ -7,7 +7,7 @@ Serial Number is saved to text file in root directory "SerialNumber.txt".
 ## Installation
 Navigate to the project's folder and execute:
 ```
-git clone nazwarepo
+git clone https://github.com/latosmichal/Py4QR.git
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
