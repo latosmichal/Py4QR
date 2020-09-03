@@ -1,6 +1,6 @@
 # Python QR Code detector
 This program detects QR Code on picture, decodes its message and draws a rectangle around QR Code.   
-![DetectedQR](testImages/1detectedQR.jpg)<img src="testImages/TEST4detectedQR.jpg" width="250px">  
+![DetectedQR](testImages/1detectedQR.jpg)<img src="testImages/TEST4detectedQR.jpg" height="206px">  
 Then it extracts "SN" value from QR data.  
 The recognized QR Code is saved as new file within location of the input file.  
 Serial Number is saved to text file in root directory "SerialNumber.txt".
