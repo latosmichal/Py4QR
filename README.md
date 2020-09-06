@@ -13,7 +13,12 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 ## Running
-You can use as many image files as you want.
+You can use as many image files as you want.  
 ```
 python FindSerialNumbers.py testImages\1.jpg testImages\TEST4.jpg
+```
+Alternatively, you can run the app on all test images in testImages folder:  
+Just run:
+```
+python FindSerialNumbers.py
 ```

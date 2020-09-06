@@ -12,7 +12,12 @@ def QRDetect(image, path):
         points = points.reshape((-1, 1, 2))
         cv2.polylines(image, [points], True, (255, 0, 255), 2)
         # Saving an image with rectangle around QR Code
-        detectedQRonImage = path.split(".")[0] + "detectedQR.jpg"
+        path = path.split(".")
+        if len(path) > 2:
+            detectedQRonImage = "." + path[1] + "detectedQR.jpg"
+        else:
+            detectedQRonImage = path[0] + "detectedQR.jpg"
+        print(detectedQRonImage)
         cv2.imwrite(detectedQRonImage, image)
         return myData.split(";")
 
